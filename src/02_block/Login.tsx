@@ -1,6 +1,6 @@
 import React from "react";
 
-const Signin = () => {
+const Login = () => {
   return (
     <div className="text-center">
       <main className="d-flex justify-content-center align-items-center m-5">
@@ -42,4 +42,4 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+export default Login;

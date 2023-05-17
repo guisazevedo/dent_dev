@@ -3,7 +3,7 @@ import Carousel from "./02_block/Carousel";
 import Planos from "./02_block/Planos";
 import FAQ from "./02_block/FAQ";
 import Footer from "./02_block/Footer";
-import Signin from "./02_block/Signin";
+import Login from "./02_block/Login";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <div className="b-example-divider"></div>
       <Planos />
       {/* <Footer /> */}
-      <Signin />
+      <Login />
     </div>
   );
 }
