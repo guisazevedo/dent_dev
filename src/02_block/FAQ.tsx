@@ -10,6 +10,7 @@ const FAQ = () => {
             aliquid omnis aut!
           </p>
         </div>
+        <h3>Topico 01</h3>
         <div className="accordion" id="accordionExample">
           <div className="accordion-item">
             <h2 className="accordion-header">

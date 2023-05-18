@@ -3,6 +3,7 @@ import Carousel from "./02_block/Carousel";
 import Planos from "./02_block/Planos";
 import Video from "./02_block/Video";
 import FAQ from "./02_block/FAQ";
+import Contact from "./02_block/Contact";
 import Footer from "./02_block/Footer";
 import Login from "./02_block/Login";
 
@@ -16,6 +17,8 @@ function App() {
       <Video />
       <div className="b-example-divider"></div>
       <FAQ />
+      <div className="b-example-divider"></div>
+      <Contact />
       <div className="b-example-divider"></div>
       <Planos />
       {/* <Footer /> */}
