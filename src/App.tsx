@@ -1,6 +1,7 @@
 import Navbar from "./02_block/Navbar";
 import Carousel from "./02_block/Carousel";
 import Planos from "./02_block/Planos";
+import Video from "./02_block/Video";
 import FAQ from "./02_block/FAQ";
 import Footer from "./02_block/Footer";
 import Login from "./02_block/Login";
@@ -11,6 +12,8 @@ function App() {
       <Navbar />
       <div className="b-example-divider"></div>
       <Carousel />
+      <div className="b-example-divider"></div>
+      <Video />
       <div className="b-example-divider"></div>
       <FAQ />
       <div className="b-example-divider"></div>

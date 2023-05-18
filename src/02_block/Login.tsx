@@ -16,7 +16,7 @@ const Login = () => {
               id="floatingInput"
               placeholder="name@example.com"
             />
-            <label htmlFor="floatingInput">Email address</label>
+            <label htmlFor="floatingInput">eMail</label>
           </div>
           <div className="form-floating m-1">
             <input
@@ -25,17 +25,25 @@ const Login = () => {
               id="floatingPassword"
               placeholder="Password"
             />
-            <label htmlFor="floatingPassword">Password</label>
+            <label htmlFor="floatingPassword">Senha</label>
           </div>
-          <div className="checkbox m-3 mb-4">
+          <div className="checkbox m-3 mb-2">
             <label>
-              <input type="checkbox" value="remember-me" /> Remember me
+              <input type="checkbox" value="remember-me" />
+              Lembre de mim
             </label>
           </div>
+          <div className="mb-4">
+            <a href="">Esqueceu a senha?</a>
+          </div>
           <button className="w-100 btn btn-lg btn-primary" type="submit">
-            Sign in
+            Log-in
           </button>
-          <p className="mt-5 mb-3 text-body-secondary">© 2017–2023</p>
+          <div className="mt-4 ">
+            <p>Precisa de uma conta?</p>
+            <a href="">Cadastre-se</a>
+          </div>
+          <p className="mt-5 mb-5 text-body-secondary">© 2017–2023</p>
         </form>
       </main>
     </div>
