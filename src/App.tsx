@@ -4,13 +4,13 @@ import Planos from "./02_block/Planos";
 import Video from "./02_block/Video";
 import FAQ from "./02_block/FAQ";
 import Contact from "./02_block/Contact";
-//import Footer from "./02_block/Footer";
 import Login from "./02_block/Login";
 import Signup from "./02_block/Signup";
 import WebApp from "./02_block/WebApp";
 import Clinico from "./02_block/Clinico";
 import Termosuso from "./02_block/Termosuso";
 import Documentation from "./02_block/Documentation";
+import Footer from "./02_block/Footer";
 
 function App() {
   return (
@@ -26,7 +26,6 @@ function App() {
       <Contact />
       <div className="b-example-divider"></div>
       <Planos />
-      {/* <Footer /> */}
       <Login />
       <div className="b-example-divider"></div>
       <Signup />
@@ -38,6 +37,8 @@ function App() {
       <Termosuso />
       <div className="b-example-divider"></div>
       <Documentation />
+      <div className="b-example-divider"></div>
+      <Footer />
     </div>
   );
 }
