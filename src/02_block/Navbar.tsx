@@ -3,7 +3,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Navbar = () => {
   return (
-    <nav className="nav justify-content-center mt-3 mb-5">
+    <nav className="nav justify-content-center p-2 mb-5 fixed-top bg-light">
       <div className="d-flex align-items-center">
         <a className="nav-link text-dark ms-3" href="#">
           <h1>

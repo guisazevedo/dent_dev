@@ -10,6 +10,7 @@ import Signup from "./02_block/Signup";
 import WebApp from "./02_block/WebApp";
 import Clinico from "./02_block/Clinico";
 import Termosuso from "./02_block/Termosuso";
+import Documentation from "./02_block/Documentation";
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
       <Clinico />
       <div className="b-example-divider"></div>
       <Termosuso />
+      <div className="b-example-divider"></div>
+      <Documentation />
     </div>
   );
 }

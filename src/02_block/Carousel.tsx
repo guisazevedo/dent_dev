@@ -2,7 +2,7 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 const Carrousel = () => {
   return (
-    <div className="w-75 mx-auto p-5">
+    <div className="w-75 mx-auto p-5 mt-5">
       <div className="p-3 pb-md-4 mx-auto text-center mb-5">
         <h1 className="display-4 fw-normal mb-3">
           Sua Segunda Opiniao Digital
