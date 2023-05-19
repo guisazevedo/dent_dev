@@ -4,7 +4,7 @@ const Documentation = () => {
   return (
     <div className="w-75 mx-auto p-5">
       <div className="p-3 pb-md-4 mx-auto text-center mb-3">
-        <h1 className="display-4 fw-normal mb-3">Documentation</h1>
+        <h1 className="display-4 fw-normal mb-3">Documentacao</h1>
         <p className="fs-5 text-body-secondary">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
           aliquam illum suscipit commodi voluptatibus, voluptas placeat minima
