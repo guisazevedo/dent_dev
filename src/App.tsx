@@ -8,6 +8,7 @@ import Contact from "./02_block/Contact";
 import Login from "./02_block/Login";
 import Signup from "./02_block/Signup";
 import WebApp from "./02_block/WebApp";
+import Clinico from "./02_block/Clinico";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
       <Signup />
       <div className="b-example-divider"></div>
       <WebApp />
+      <div className="b-example-divider"></div>
+      <Clinico />
     </div>
   );
 }

@@ -144,3 +144,5 @@ const Carrousel = () => {
 };
 
 export default Carrousel;
+
+// TODO => make pictures smallers in memory

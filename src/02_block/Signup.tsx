@@ -3,7 +3,7 @@
 
 const Signup = () => {
   return (
-    <div className="container-fluid w-50 text-center">
+    <div className="container-fluid w-25 text-center">
       <form className="row g-3 needs-validation" noValidate>
         <h1>
           <i className="bi bi-exclude"></i>
@@ -128,6 +128,7 @@ const Signup = () => {
 
 export default Signup;
 
+// TODO => include tooltips for filds
 // TODO => space between square and Concordo
 // TODO => include "olho" senha
 // TODO => include validations
