@@ -61,3 +61,5 @@ const Login = () => {
 export default Login;
 
 // TODO => space between square and Lembre
+// TODO => include "olho" senha
+// TODO => include validations

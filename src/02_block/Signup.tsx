@@ -129,3 +129,5 @@ const Signup = () => {
 export default Signup;
 
 // TODO => space between square and Concordo
+// TODO => include "olho" senha
+// TODO => include validations
