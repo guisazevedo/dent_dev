@@ -1,5 +1,3 @@
-import React from "react";
-
 const Login = () => {
   return (
     <div className="text-center">
@@ -16,7 +14,12 @@ const Login = () => {
               id="floatingInput"
               placeholder="name@example.com"
             />
-            <label htmlFor="floatingInput">eMail</label>
+            <label
+              className="text-dark text-opacity-50 ms-2"
+              htmlFor="floatingInput"
+            >
+              eMail
+            </label>
           </div>
           <div className="form-floating m-1">
             <input
@@ -25,7 +28,12 @@ const Login = () => {
               id="floatingPassword"
               placeholder="Password"
             />
-            <label htmlFor="floatingPassword">Senha</label>
+            <label
+              className="text-dark text-opacity-50 ms-2"
+              htmlFor="floatingPassword"
+            >
+              Senha
+            </label>
           </div>
           <div className="checkbox m-3 mb-2">
             <label>
@@ -51,3 +59,5 @@ const Login = () => {
 };
 
 export default Login;
+
+// TODO => space between square and Lembre
