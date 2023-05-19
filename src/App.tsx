@@ -6,6 +6,7 @@ import FAQ from "./02_block/FAQ";
 import Contact from "./02_block/Contact";
 import Footer from "./02_block/Footer";
 import Login from "./02_block/Login";
+import Signup from "./02_block/Signup";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <Planos />
       {/* <Footer /> */}
       <Login />
+      <div className="b-example-divider"></div>
+      <Signup />
     </div>
   );
 }
