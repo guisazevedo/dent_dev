@@ -1,5 +1,7 @@
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
-import carouselImage from "../assets/carousel_01.jpg";
+import carouselImage_01 from "../assets/carousel_01.jpg";
+import carouselImage_02 from "../assets/carousel_02.jpg";
+import carouselImage_03 from "../assets/carousel_03.jpg";
 
 const Carrousel = () => {
   return (
@@ -47,7 +49,7 @@ const Carrousel = () => {
           <div className="carousel-inner">
             <div className="carousel-item carousel-item-next carousel-item-start">
               <img
-                src={carouselImage}
+                src={carouselImage_01}
                 className="d-block w-100 mx-auto opacity-25"
                 alt="Carousel_01"
               />
@@ -68,7 +70,7 @@ const Carrousel = () => {
             </div>
             <div className="carousel-item">
               <img
-                src="../../src/assets/carousel_02.jpg"
+                src={carouselImage_02}
                 className="d-block w-100 mx-auto opacity-25"
                 alt="Carousel_02"
               />
@@ -89,7 +91,7 @@ const Carrousel = () => {
             </div>
             <div className="carousel-item active carousel-item-start">
               <img
-                src="/src/assets/carousel_03.jpg"
+                src={carouselImage_03}
                 className="d-block w-100 mx-auto opacity-25"
                 alt="Carousel_03"
               />
