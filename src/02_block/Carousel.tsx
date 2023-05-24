@@ -48,7 +48,7 @@ const Carrousel = () => {
               <img
                 src="../assets/carousel_01.jpg"
                 className="d-block w-100 mx-auto opacity-25"
-                alt="..."
+                alt="Carousel_01"
               />
               <div className="container">
                 <div className="carousel-caption text-start text-dark">
@@ -69,7 +69,7 @@ const Carrousel = () => {
               <img
                 src="../assets/carousel_02.jpg"
                 className="d-block w-100 mx-auto opacity-25"
-                alt="..."
+                alt="Carousel_02"
               />
               <div className="container">
                 <div className="carousel-caption text-dark">
@@ -90,7 +90,7 @@ const Carrousel = () => {
               <img
                 src="../assets/carousel_03.jpg"
                 className="d-block w-100 mx-auto opacity-25"
-                alt="..."
+                alt="Carousel_03"
               />
               <div className="container">
                 <div className="carousel-caption text-end text-dark">
