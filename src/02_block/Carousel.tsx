@@ -46,7 +46,7 @@ const Carrousel = () => {
           <div className="carousel-inner">
             <div className="carousel-item carousel-item-next carousel-item-start">
               <img
-                src="./src/assets/carousel_01.jpg"
+                src="src/assets/carousel_01.jpg"
                 className="d-block w-100 mx-auto opacity-25"
                 alt="..."
               />
@@ -67,7 +67,7 @@ const Carrousel = () => {
             </div>
             <div className="carousel-item">
               <img
-                src="/src/assets/carousel_02.jpg"
+                src="src/assets/carousel_02.jpg"
                 className="d-block w-100 mx-auto opacity-25"
                 alt="..."
               />
@@ -88,7 +88,7 @@ const Carrousel = () => {
             </div>
             <div className="carousel-item active carousel-item-start">
               <img
-                src="/src/assets/carousel_03.jpg"
+                src="src/assets/carousel_03.jpg"
                 className="d-block w-100 mx-auto opacity-25"
                 alt="..."
               />
