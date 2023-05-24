@@ -1,4 +1,5 @@
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+import carouselImage from "../assets/carousel_01.jpg";
 
 const Carrousel = () => {
   return (
@@ -46,7 +47,7 @@ const Carrousel = () => {
           <div className="carousel-inner">
             <div className="carousel-item carousel-item-next carousel-item-start">
               <img
-                src="/carousel_01.jpg"
+                src={carouselImage}
                 className="d-block w-100 mx-auto opacity-25"
                 alt="Carousel_01"
               />
