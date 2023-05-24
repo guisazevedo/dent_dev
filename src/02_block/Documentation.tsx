@@ -1,5 +1,3 @@
-import React from "react";
-
 const Documentation = () => {
   return (
     <div className="w-75 mx-auto p-5">
