@@ -67,7 +67,7 @@ const Carrousel = () => {
             </div>
             <div className="carousel-item">
               <img
-                src="../assets/carousel_02.jpg"
+                src="../../src/assets/carousel_02.jpg"
                 className="d-block w-100 mx-auto opacity-25"
                 alt="Carousel_02"
               />
@@ -88,7 +88,7 @@ const Carrousel = () => {
             </div>
             <div className="carousel-item active carousel-item-start">
               <img
-                src="../assets/carousel_03.jpg"
+                src="/src/assets/carousel_03.jpg"
                 className="d-block w-100 mx-auto opacity-25"
                 alt="Carousel_03"
               />
