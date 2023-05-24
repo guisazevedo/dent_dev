@@ -1,3 +1,6 @@
+import painelControle from "../assets/dashboard.jpg";
+import carouselClinico from "../assets/clinic.jpg";
+
 const WebApp = () => {
   return (
     <div className="m-5 w-75 mx-auto">
@@ -13,7 +16,7 @@ const WebApp = () => {
           <div className="col">
             <div className="card">
               <img
-                src="src/assets/dashboard.jpg"
+                src={painelControle}
                 className="card-img-top opacity-75"
                 alt="foto dashboard"
                 style={{ height: 400 }}
@@ -34,7 +37,7 @@ const WebApp = () => {
           <div className="col">
             <div className="card">
               <img
-                src="src/assets/clinic.jpg"
+                src={carouselClinico}
                 className="card-img-top opacity-50"
                 alt="foto clinica"
                 style={{ height: 400 }}
