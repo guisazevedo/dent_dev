@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 import carouselImage_01 from "../00_assets/carousel_01.jpg";
 import carouselImage_02 from "../00_assets/carousel_02.jpg";
@@ -5,7 +6,7 @@ import carouselImage_03 from "../00_assets/carousel_03.jpg";
 
 const Carrousel = () => {
   return (
-    <div className="w-75 mx-auto p-5 mt-5">
+    <div className="w-100 mx-auto p-5 mt-5">
       <div className="p-3 pb-md-4 mx-auto text-center mb-5">
         <h1 className="display-4 fw-normal mb-3">
           Sua Segunda Opiniao Digital
@@ -55,15 +56,12 @@ const Carrousel = () => {
               />
               <div className="container">
                 <div className="carousel-caption text-start text-dark">
-                  <h1>Example headline.</h1>
+                  <h1>Seu assistente virtual.</h1>
+                  <p>Melhore a assertividade de suas analises clinicas.</p>
                   <p>
-                    Some representative placeholder content for the first slide
-                    of the carousel.
-                  </p>
-                  <p>
-                    <a className="btn btn-lg btn-primary" href="#">
-                      Sign up today
-                    </a>
+                    <Link className="btn btn-lg btn-primary" to="/sign-up">
+                      Sign-up
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -76,14 +74,11 @@ const Carrousel = () => {
               />
               <div className="container">
                 <div className="carousel-caption text-dark">
-                  <h1>Another example headline.</h1>
-                  <p>
-                    Some representative placeholder content for the second slide
-                    of the carousel.
-                  </p>
+                  <h1>Facil de usar - direto e rapido.</h1>
+                  <p>Precisao do diagnostico, em segundos.</p>
                   <p>
                     <a className="btn btn-lg btn-primary" href="#">
-                      Learn more
+                      Perguntas Frequentes
                     </a>
                   </p>
                 </div>
@@ -149,3 +144,4 @@ const Carrousel = () => {
 export default Carrousel;
 
 // TODO => make pictures smallers in memory
+// TODO => make margin top for headers - sign-up
