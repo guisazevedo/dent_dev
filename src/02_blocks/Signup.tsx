@@ -128,7 +128,7 @@ const Signup = () => {
 
 export default Signup;
 
-// TODO => include tooltips for filds
+// TODO => include tooltips for fields
 // TODO => space between square and Concordo
 // TODO => include "olho" senha
 // TODO => include validations

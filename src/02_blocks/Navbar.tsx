@@ -56,5 +56,6 @@ const Navbar = () => {
 
 export default Navbar;
 
-// TODO => create intra page links for Video / FAQ / Contato / Planos
-// TODO => fix layout
+// TODO => fix layout -> headers hidden under navbar
+// TODO => fix headers -> hamburger
+// TODO => fix screen / phone
