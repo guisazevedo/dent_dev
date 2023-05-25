@@ -1,44 +1,18 @@
-import Navbar from "./02_block/Navbar";
-import Carousel from "./02_block/Carousel";
-import Planos from "./02_block/Planos";
-import Video from "./02_block/Video";
-import FAQ from "./02_block/FAQ";
-import Contact from "./02_block/Contact";
-import Login from "./02_block/Login";
-import Signup from "./02_block/Signup";
-import WebApp from "./02_block/WebApp";
-import Clinico from "./02_block/Clinico";
-import Termosuso from "./02_block/Termosuso";
-import Documentation from "./02_block/Documentation";
-import Footer from "./02_block/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Landing_page from "./03_pages/Landing_page";
+import Login_page from "./03_pages/Login_page";
+import Signup_page from "./03_pages/Signup_page";
 
 function App() {
   return (
     <div className="bg-light">
-      <Navbar />
-      <div className="b-example-divider"></div>
-      <Carousel />
-      <div className="b-example-divider"></div>
-      <Video />
-      <div className="b-example-divider"></div>
-      <FAQ />
-      <div className="b-example-divider"></div>
-      <Contact />
-      <div className="b-example-divider"></div>
-      <Planos />
-      <Login />
-      <div className="b-example-divider"></div>
-      <Signup />
-      <div className="b-example-divider"></div>
-      <WebApp />
-      <div className="b-example-divider"></div>
-      <Clinico />
-      <div className="b-example-divider"></div>
-      <Termosuso />
-      <div className="b-example-divider"></div>
-      <Documentation />
-      <div className="b-example-divider"></div>
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" Component={Landing_page}></Route>
+          <Route path="/log-in" Component={Login_page}></Route>
+          <Route path="/sign-up" Component={Signup_page}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }

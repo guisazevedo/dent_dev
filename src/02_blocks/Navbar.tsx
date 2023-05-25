@@ -20,10 +20,10 @@ const Navbar = () => {
           FAQ
         </a>
         <a className="nav-link text-dark ms-3" href="#">
-          Planos
-        </a>{" "}
-        <a className="nav-link text-dark ms-5 me-5" href="#">
           Contato
+        </a>{" "}
+        <a className="nav-link text-dark ms-3 me-5" href="#">
+          Planos
         </a>
         <div className="row ms-5">
           <div className="col">
