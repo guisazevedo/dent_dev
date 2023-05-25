@@ -1,6 +1,8 @@
 // TODO => incluir 2FA
 // COMMENT => addres+ to be added during operations => more points
 
+import { Link } from "react-router-dom";
+
 const Signup = () => {
   return (
     <div className="container-fluid w-25 text-center">
@@ -113,9 +115,11 @@ const Signup = () => {
             Concordo com termos e condicoes
           </label>
         </div>
-        <button className="w-100 btn btn-lg btn-primary" type="submit">
-          Sign-up
-        </button>
+        <Link to="/web-app">
+          <button className="w-100 btn btn-lg btn-primary" type="submit">
+            Sign-up
+          </button>
+        </Link>
         <div className="mt-4 ">
           <p>Ja possui uma conta?</p>
           <a href="">Log-in</a>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Login = () => {
   return (
     <div className="text-center">
@@ -44,9 +46,11 @@ const Login = () => {
           <div className="mb-4">
             <a href="">Esqueceu a senha?</a>
           </div>
-          <button className="w-100 btn btn-lg btn-primary" type="submit">
-            Log-in
-          </button>
+          <Link to="/web-app">
+            <button className="w-100 btn btn-lg btn-primary" type="submit">
+              Log-in
+            </button>
+          </Link>
           <div className="mt-4 ">
             <p>Precisa de uma conta?</p>
             <a href="">Cadastre-se</a>
