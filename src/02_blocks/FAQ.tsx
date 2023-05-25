@@ -382,5 +382,3 @@ const FAQ = () => {
 };
 
 export default FAQ;
-
-// TODO => fix blue mark on acordions - 3-4 working OK
