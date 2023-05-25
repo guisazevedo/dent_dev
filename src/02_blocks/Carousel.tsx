@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 import carouselImage_01 from "../00_assets/carousel_01.jpg";
 import carouselImage_02 from "../00_assets/carousel_02.jpg";
@@ -6,7 +7,7 @@ import carouselImage_03 from "../00_assets/carousel_03.jpg";
 
 const Carrousel = () => {
   return (
-    <div className="w-100 mx-auto p-5 mt-5">
+    <div className="w-100 mx-auto p-5 mt-5" id="carousel">
       <div className="p-3 pb-md-4 mx-auto text-center mb-5">
         <h1 className="display-4 fw-normal mb-3">
           Sua Segunda Opiniao Digital
@@ -77,9 +78,9 @@ const Carrousel = () => {
                   <h1>Facil de usar - direto e rapido.</h1>
                   <p>Precisao do diagnostico, em segundos.</p>
                   <p>
-                    <a className="btn btn-lg btn-primary" href="#">
+                    <NavHashLink className="btn btn-lg btn-primary" to="/#faq">
                       Perguntas Frequentes
-                    </a>
+                    </NavHashLink>
                   </p>
                 </div>
               </div>
@@ -92,14 +93,11 @@ const Carrousel = () => {
               />
               <div className="container">
                 <div className="carousel-caption text-end text-dark">
-                  <h1>One more for good measure.</h1>
-                  <p>
-                    Some representative placeholder content for the third slide
-                    of this carousel.
-                  </p>
+                  <h1>Duvidas? Comentarios?</h1>
+                  <p>Gostariamos de ouvir de voce.</p>
                   <p>
                     <a className="btn btn-lg btn-primary" href="#">
-                      Browse gallery
+                      Contato
                     </a>
                   </p>
                 </div>
