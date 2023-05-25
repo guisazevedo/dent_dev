@@ -5,11 +5,8 @@ import { Link } from "react-router-dom";
 
 const Signup = () => {
   return (
-    <div className="container-fluid w-25 text-center">
+    <div className="container-fluid w-25 text-center mt-5">
       <form className="row g-3 needs-validation" noValidate>
-        <h1>
-          <i className="bi bi-exclude"></i>
-        </h1>
         <h1 className="h3 mb-4 fw-normal">Sign-up</h1>
         <div className="form-floating m-1">
           <input
@@ -124,7 +121,6 @@ const Signup = () => {
           <p>Ja possui uma conta?</p>
           <a href="">Log-in</a>
         </div>
-        <p className="mt-5 mb-5 text-body-secondary">© 2017–2023</p>
       </form>
     </div>
   );

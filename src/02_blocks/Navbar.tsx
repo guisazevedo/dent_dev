@@ -7,11 +7,11 @@ const Navbar = () => {
   return (
     <nav className="nav justify-content-center p-2 mb-3 fixed-top bg-light">
       <div className="d-flex align-items-center">
-        <a className="nav-link text-dark ms-3" href="#">
+        <NavHashLink className="nav-link text-dark ms-3" to="/#carousel">
           <h1>
             <i className="bi bi-exclude"></i>
           </h1>
-        </a>
+        </NavHashLink>
         <NavHashLink className="nav-link text-dark ms-3" to="/#carousel">
           Home
         </NavHashLink>{" "}
