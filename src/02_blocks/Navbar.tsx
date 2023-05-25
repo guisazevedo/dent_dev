@@ -1,31 +1,32 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
     <nav className="nav justify-content-center p-2 mb-3 fixed-top bg-light">
       <div className="d-flex align-items-center">
-        <a className="nav-link text-dark ms-3" href="#">
+        <NavHashLink className="nav-link text-dark ms-3" to="/#carousel">
           <h1>
             <i className="bi bi-exclude"></i>
           </h1>
-        </a>
-        <Link className="nav-link text-dark ms-3" to="/">
+        </NavHashLink>
+        <NavHashLink className="nav-link text-dark ms-3" to="/#carousel">
           Home
-        </Link>{" "}
-        <a className="nav-link text-dark ms-3" href="#">
+        </NavHashLink>{" "}
+        <NavHashLink className="nav-link text-dark ms-3" to="/#video">
           Video
-        </a>{" "}
-        <a className="nav-link text-dark ms-3" href="#">
+        </NavHashLink>{" "}
+        <NavHashLink className="nav-link text-dark ms-3" to="/#faq">
           FAQ
-        </a>
-        <a className="nav-link text-dark ms-3" href="#">
+        </NavHashLink>
+        <NavHashLink className="nav-link text-dark ms-3" to="/#contato">
           Contato
-        </a>{" "}
-        <a className="nav-link text-dark ms-3 me-5" href="#">
+        </NavHashLink>{" "}
+        <NavHashLink className="nav-link text-dark ms-3 me-5" to="/#planos">
           Planos
-        </a>
+        </NavHashLink>
         <div className="row ms-5">
           <div className="col">
             <Link to="/sign-up">

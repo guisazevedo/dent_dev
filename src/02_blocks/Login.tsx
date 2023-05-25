@@ -2,12 +2,9 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="text-center">
+    <div className="text-center mt-5">
       <main className="d-flex justify-content-center align-items-center m-5">
         <form className="form-signin w-25 mt-5">
-          <h1>
-            <i className="bi bi-exclude"></i>
-          </h1>
           <h1 className="h3 mb-4 fw-normal">Log-in</h1>
           <div className="form-floating m-1">
             <input
@@ -55,7 +52,6 @@ const Login = () => {
             <p>Precisa de uma conta?</p>
             <a href="">Cadastre-se</a>
           </div>
-          <p className="mt-5 mb-5 text-body-secondary">© 2017–2023</p>
         </form>
       </main>
     </div>
