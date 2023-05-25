@@ -1,5 +1,5 @@
-import painelControle from "../assets/dashboard.jpg";
-import carouselClinico from "../assets/clinic.jpg";
+import painelControle from "../00_assets/dashboard.jpg";
+import carouselClinico from "../00_assets/clinic.jpg";
 
 const WebApp = () => {
   return (

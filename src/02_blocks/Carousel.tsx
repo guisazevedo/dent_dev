@@ -1,7 +1,7 @@
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
-import carouselImage_01 from "../assets/carousel_01.jpg";
-import carouselImage_02 from "../assets/carousel_02.jpg";
-import carouselImage_03 from "../assets/carousel_03.jpg";
+import carouselImage_01 from "../00_assets/carousel_01.jpg";
+import carouselImage_02 from "../00_assets/carousel_02.jpg";
+import carouselImage_03 from "../00_assets/carousel_03.jpg";
 
 const Carrousel = () => {
   return (
