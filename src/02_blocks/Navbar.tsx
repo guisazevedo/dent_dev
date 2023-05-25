@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,9 +11,9 @@ const Navbar = () => {
             <i className="bi bi-exclude"></i>
           </h1>
         </a>
-        <a className="nav-link text-dark ms-3" href="#">
+        <Link className="nav-link text-dark ms-3" to="/">
           Home
-        </a>{" "}
+        </Link>{" "}
         <a className="nav-link text-dark ms-3" href="#">
           Video
         </a>{" "}
@@ -27,20 +28,24 @@ const Navbar = () => {
         </a>
         <div className="row ms-5">
           <div className="col">
-            <button
-              type="button"
-              className="btn btn-outline-primary w-100 ms-2"
-            >
-              Entre <i className="bi bi-door-open"></i>
-            </button>
+            <Link to="/sign-up">
+              <button
+                type="button"
+                className="btn btn-outline-primary w-100 ms-2"
+              >
+                Entre <i className="bi bi-door-open"></i>
+              </button>
+            </Link>
           </div>
           <div className="col">
-            <button
-              type="button"
-              className="btn btn-outline-secondary w-100 ms-2"
-            >
-              Log-In <i className="bi bi-box-arrow-in-right"></i>
-            </button>
+            <Link to="/log-in">
+              <button
+                type="button"
+                className="btn btn-outline-secondary w-100 ms-2"
+              >
+                Log-In <i className="bi bi-box-arrow-in-right"></i>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -49,3 +54,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// TODO => create intra page links for Video / FAQ / Contato / Planos
+// TODO => fix layout
