@@ -1,5 +1,6 @@
 import painelControle from "../00_assets/dashboard.jpg";
 import carouselClinico from "../00_assets/clinic.jpg";
+import { Link } from "react-router-dom";
 
 const WebApp = () => {
   return (
@@ -28,9 +29,9 @@ const WebApp = () => {
                   facilis dolor maxime aspernatur esse tempore quas maiores.
                   Illum, dolores quam?
                 </p>
-                <a href="#" className="btn btn-primary">
-                  Entrar
-                </a>
+                <Link to="/clinico">
+                  <button className="btn btn-primary">Entrar</button>
+                </Link>
               </div>
             </div>
           </div>
@@ -49,9 +50,9 @@ const WebApp = () => {
                   odit nemo consequuntur repellendus placeat id, voluptate
                   facere. Quia, quasi harum.
                 </p>
-                <a href="#" className="btn btn-primary">
-                  Entrar
-                </a>
+                <Link to="/clinico">
+                  <button className="btn btn-primary">Entrar</button>
+                </Link>
               </div>
             </div>
           </div>

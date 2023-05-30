@@ -10,7 +10,7 @@ const FAQ = () => {
             aliquid omnis aut!
           </p>
         </div>
-        <h3 className="mt-5 mb-3">Topico 01</h3>
+        <h3 className="mt-5 mb-3">Topico 001</h3>
         <div className="accordion">
           <div className="accordion-item">
             <h2 className="accordion-header">
@@ -382,5 +382,3 @@ const FAQ = () => {
 };
 
 export default FAQ;
-
-// TODO => fix blue mark on acordions - 3-4 working OK
