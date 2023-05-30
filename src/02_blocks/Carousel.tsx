@@ -37,7 +37,7 @@ const Carrousel = () => {
   ];
 
   return (
-    <div className="w-100 mt-5 pt-5" id="carousel">
+    <div className="mt-5 pt-5" id="carousel">
       <div className="p-3 pb-md-4 mx-auto text-center">
         <h1 className="display-4 fw-normal mb-3">
           Sua Segunda Opiniao Digital
