@@ -1,6 +1,6 @@
 const Video = () => {
   return (
-    <div className="w-100 p-5 bg-light" id="video">
+    <div className="p-5 bg-light" id="video">
       <div className="p-3 pb-md-4 text-center mb-5">
         <h1 className="display-4 fw-normal mb-3">Na Pratica</h1>
         <p className="fs-5 text-body-secondary">
