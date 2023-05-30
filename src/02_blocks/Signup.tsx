@@ -92,7 +92,7 @@ const Signup = () => {
           </Link>
           <div className="mt-4 ">
             <p>Ja possui uma conta?</p>
-            <a href="">Log-in</a>
+            <Link to="/log-in">Log-in</Link>
           </div>
         </form>
       </div>
@@ -106,4 +106,4 @@ export default Signup;
 // TODO => include "olho" senha
 // TODO => include validations
 // TODO => input login / sign up are not equal...
-// TODO => Cadastre-se => Sign-up
+// TODO => esqueceu a senha?

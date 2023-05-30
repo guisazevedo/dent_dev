@@ -51,7 +51,7 @@ const Login = () => {
             </Link>
             <div className="mt-4 ">
               <p>Precisa de uma conta?</p>
-              <a href="">Cadastre-se</a>
+              <Link to="/sign-up">Cadastre-se</Link>
             </div>
           </form>
         </main>
@@ -62,6 +62,5 @@ const Login = () => {
 
 export default Login;
 
-// TODO => body of page in the middle of page
 // TODO => include "olho" senha
 // TODO => include validations
