@@ -12,7 +12,7 @@ const WebApp = () => {
     },
     {
       img: carouselClinico,
-      title: "Painel Clinico",
+      title: "Painel Clínico",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum odit nemo consequuntur repellendus placeat id, voluptate facere. Quia, quasi harum.",
       link: "/clinico",
     },
@@ -28,10 +28,10 @@ const WebApp = () => {
             tenetur dolorum incidunt sed dolores deleniti.
           </p>
         </div>
-        <div className="row mb-3">
+        <div className="row row-cols-1 row-cols-md-2 mb-3">
           {painel_items.map((item) => (
-            <div className="col" key={item.title}>
-              <div className="card">
+            <div className="col mb-4" key={item.title}>
+              <div className="card h-100">
                 <div
                   className="image-container"
                   style={{ height: "340px", overflow: "hidden" }}
