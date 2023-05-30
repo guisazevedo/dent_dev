@@ -19,7 +19,7 @@ const WebApp = () => {
   ];
 
   return (
-    <div className="m-5 mx-auto">
+    <div className="m-5 pt-5 mx-auto">
       <div className="container text-center">
         <div className="pricing-header p-3 pb-md-4 mx-auto text-center mb-5">
           <h1 className="display-4 fw-normal mb-3">Painel Principal</h1>
@@ -30,14 +30,18 @@ const WebApp = () => {
         </div>
         <div className="row mb-3">
           {painel_items.map((item) => (
-            <div className="col">
+            <div className="col" key={item.title}>
               <div className="card">
-                <img
-                  src={item.img}
-                  className="card-img-top opacity-75"
-                  alt="foto dashboard"
-                  style={{ height: 400 }}
-                />
+                <div
+                  className="image-container"
+                  style={{ height: "340px", overflow: "hidden" }}
+                >
+                  <img
+                    src={item.img}
+                    className="card-img-top opacity-50 h-100"
+                    alt="foto dashboard"
+                  />
+                </div>
                 <div className="card-body">
                   <h5 className="card-title fs-3">{item.title}</h5>
                   <p className="card-text">{item.text}</p>
@@ -48,7 +52,6 @@ const WebApp = () => {
               </div>
             </div>
           ))}
-          ;
         </div>
       </div>
     </div>
