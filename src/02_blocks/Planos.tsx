@@ -43,7 +43,7 @@ const Planos = () => {
   return (
     <main className="py-5 bg-light" id="planos">
       <div className="container">
-        <div className="pricing-header py-5 pb-md-4 mx-auto text-center mb-5">
+        <div className="pricing-header py-5 pb-md-4 mx-auto text-center mb-5 px-2">
           <h1 className="display-4 fw-normal mb-3">Planos</h1>
           <p className="fs-5 text-body-secondary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
@@ -51,7 +51,7 @@ const Planos = () => {
             quibusdam dolorum.
           </p>
         </div>
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center mb-3">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center justify-content-center mb-3">
           {plan_items.map((item) => (
             <div className="col mb-4">
               <div
