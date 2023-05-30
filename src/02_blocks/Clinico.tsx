@@ -1,6 +1,6 @@
 const Clinico = () => {
   return (
-    <div className="container">
+    <div className="pt-5 container">
       <div className="row justify-content-center">
         <div className="col-lg-6 col-md-8">
           <div className="p-3 pb-md-4 text-center mt-5">
