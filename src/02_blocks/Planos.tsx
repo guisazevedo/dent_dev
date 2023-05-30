@@ -36,7 +36,7 @@ const Planos = () => {
                   type="button"
                   className="w-100 btn btn-lg btn-outline-primary mt-auto mb-2"
                 >
-                  Explore
+                  Sign-up
                 </button>
               </div>
             </div>

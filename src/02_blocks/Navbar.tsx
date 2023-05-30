@@ -12,7 +12,7 @@ const Navbar = () => {
         </h1>
         <h3>DentAi</h3>
         <button
-          className="navbar-toggler"
+          className="btn-sm navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarColor02"
