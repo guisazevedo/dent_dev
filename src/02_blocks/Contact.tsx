@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <div className="w-75 mx-auto p-5" id="contato">
-      <div className="p-3 pb-md-4 mx-auto text-center mb-5">
+    <div className="mx-auto p-5 bg-light" id="contato">
+      <div className="w-75  p-3 pb-md-4 mx-auto text-center mb-5">
         <h1 className="display-4 fw-normal mb-3">Entre em Contato</h1>
         <p className="fs-5 text-body-secondary">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
@@ -9,7 +9,7 @@ const Contact = () => {
           aliquid omnis aut!
         </p>
       </div>
-      <form>
+      <form className="w-75 mx-auto">
         {/* <!-- Name input --> */}
         <div className="form-outline mb-4">
           <label className="form-label" htmlFor="form4Example1">
