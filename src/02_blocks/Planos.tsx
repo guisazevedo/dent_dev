@@ -53,7 +53,7 @@ const Planos = () => {
         </div>
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center justify-content-center mb-3">
           {plan_items.map((item) => (
-            <div className="col mb-4">
+            <div className="col mb-4 mx-3">
               <div
                 className={
                   "card h-100 rounded-3 shadow-sm " + item.format_border
