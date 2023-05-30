@@ -9,7 +9,13 @@ import Clinico_page from "./03_pages/Clinico_page";
 
 function App() {
   return (
-    <div className="bg-light">
+    <div
+      className="container-fluid p-0 bg-light"
+      style={{
+        height: "100vh",
+        width: "100vw",
+      }}
+    >
       <Router>
         <Routes>
           <Route path="/" Component={Landing_page}></Route>

@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { Link } from "react-router-dom";
-import { NavHashLink } from "react-router-hash-link";
+//import { Link } from "react-router-dom";
+//import { NavHashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg bg-light fixed-top">
+      <div className="container-fluid mx-5 my-2">
         <h1>
           <i className="bi bi-exclude text-dark m-3"></i>
         </h1>
