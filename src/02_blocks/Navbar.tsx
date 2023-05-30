@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 
 const Navbar = () => {
@@ -10,7 +10,6 @@ const Navbar = () => {
         <h1>
           <i className="bi bi-exclude text-dark m-3"></i>
         </h1>
-        <h3>DentAi</h3>
         <button
           className="navbar-toggler"
           type="button"
@@ -50,12 +49,25 @@ const Navbar = () => {
               </NavHashLink>
             </li>
           </ul>
-          <button className="btn btn-outline-dark m-1" type="submit">
-            Log-in
-          </button>
-          <button className="btn btn-outline-dark m-1" type="submit">
-            Sign-up
-          </button>
+          <div className="row">
+            <div className="col-6">
+              <NavHashLink className="nav-link" to="/log-in">
+                <button className="btn btn-primary col-12 m-1" type="button">
+                  Log-in
+                </button>
+              </NavHashLink>
+            </div>
+            <div className="col-6">
+              <NavHashLink className="nav-link" to="/sign-up">
+                <button
+                  className="btn btn-outline-dark col-12 m-1"
+                  type="button"
+                >
+                  Sign-up
+                </button>
+              </NavHashLink>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -112,5 +124,5 @@ const Navbar = () => {
 export default Navbar;
 
 // TODO => fix layout -> headers hidden under navbar
-// TODO => fix headers -> hamburger
+// TODO => fix headers -> log-in / Sing-up size
 // TODO => fix screen / phone
