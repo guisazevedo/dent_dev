@@ -15,7 +15,7 @@ const Planos = () => {
           </p>
         </div>
         <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
-          <div className="col">
+          <div className="col p-3">
             <div className="card h-100 mb-4 rounded-3 shadow-sm">
               <div className="card-header py-3">
                 <h4 className="my-0 fw-normal">Gratis</h4>
@@ -41,7 +41,7 @@ const Planos = () => {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col p-3">
             <div className="card h-100 mb-4 rounded-3 shadow-sm">
               <div className="card-header py-3">
                 <h4 className="my-0 fw-normal">Plano Basico</h4>
@@ -67,7 +67,7 @@ const Planos = () => {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col p-3">
             <div className="card h-100 mb-4 rounded-3 shadow-sm border-primary">
               <div className="card-header py-3 text-bg-primary border-primary">
                 <h4 className="my-0 fw-normal">Plano Economico</h4>
