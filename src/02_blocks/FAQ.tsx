@@ -57,8 +57,8 @@ const FAQ = () => {
 
   return (
     <>
-      <div className="p-5 bg-light" id="faq">
-        <div className="p-3 pb-md-4 mx-auto text-center mb-5">
+      <div className="pt-5 bg-light" id="faq">
+        <div className="pt-3 pb-md-4 mx-auto text-center mb-1">
           <h1 className="display-4 fw-normal mb-3">Perguntas Frenquentes</h1>
           <p className="fs-5 text-body-secondary">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
@@ -68,7 +68,7 @@ const FAQ = () => {
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <h3 className="mt-5 mb-3">Topico 01</h3>
+            <h3 className="mt-5 mb-3">Topicos Tecnicos</h3>
             <div className="accordion">
               {questions_items_1.map((item) => (
                 <div className="accordion-item">
@@ -98,33 +98,37 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <h3 className="mt-5 mb-3">Topico 02</h3>
-        <div className="accordion">
-          {questions_items_2.map((item) => (
-            <div className="accordion-item">
-              <h2 className="accordion-header">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target={"#" + item.collapse}
-                  aria-expanded="false"
-                  aria-controls={item.collapse}
-                >
-                  {item.question}
-                </button>
-              </h2>
-              <div
-                id={item.collapse}
-                className="accordion-collapse collapse"
-                data-bs-parent="#accordionExample2"
-              >
-                <div className="accordion-body">
-                  <p>{item.text}</p>
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <h3 className="mt-5 mb-3">Topicos Comerciais</h3>
+            <div className="accordion">
+              {questions_items_2.map((item) => (
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={"#" + item.collapse}
+                      aria-expanded="false"
+                      aria-controls={item.collapse}
+                    >
+                      {item.question}
+                    </button>
+                  </h2>
+                  <div
+                    id={item.collapse}
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample2"
+                  >
+                    <div className="accordion-body">
+                      <p>{item.text}</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              ))}{" "}
             </div>
-          ))}{" "}
+          </div>
         </div>
       </div>
     </>
