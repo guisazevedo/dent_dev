@@ -80,7 +80,11 @@ const Carrousel = () => {
           </div>
           <div className="carousel-inner">
             {carousel_items.map((item) => (
-              <div className={"carousel-item " + item.carousel_format}>
+              <div
+                className={
+                  "carousel-item " + item.carousel_format + " image-container"
+                }
+              >
                 <img
                   src={item.image}
                   className="d-block w-100 mx-auto opacity-25"
