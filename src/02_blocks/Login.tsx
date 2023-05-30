@@ -5,7 +5,7 @@ const Login = () => {
     <div>
       <div className="text-center mt-5 pt-5">
         <main className="d-flex justify-content-center align-items-center m-5">
-          <form className="form-signin w-25 mt-5">
+          <form className="form-signin col-lg-3 col-md-6 col-sm-8 col-10 mt-5">
             <h1 className="h3 mb-4 fw-normal">Log-in</h1>
             <div className="form-floating m-2">
               <input
@@ -49,7 +49,7 @@ const Login = () => {
                 Log-in
               </button>
             </Link>
-            <div className="mt-4 ">
+            <div className="mt-4">
               <p>Precisa de uma conta?</p>
               <Link to="/sign-up">Cadastre-se</Link>
             </div>
