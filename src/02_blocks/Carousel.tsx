@@ -1,11 +1,41 @@
 import { Link } from "react-router-dom";
-import { NavHashLink } from "react-router-hash-link";
+//import { NavHashLink } from "react-router-hash-link";
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 import carouselImage_01 from "../00_assets/carousel_01.jpg";
 import carouselImage_02 from "../00_assets/carousel_02.jpg";
 import carouselImage_03 from "../00_assets/carousel_03.jpg";
 
 const Carrousel = () => {
+  const carousel_items = [
+    {
+      title: "Seu assistente virtual.",
+      text: "Melhore a assertividade de suas analises clinicas.",
+      text_place: "text-start",
+      action: "Sign-up",
+      image: carouselImage_01,
+      to: "/sign-up",
+      carousel_format: "carousel-item-next carousel-item-start",
+    },
+    {
+      title: "Facil de usar - direto e rapido.",
+      text: "Precisao do diagnostico, em segundos.",
+      text_place: "",
+      action: "Perguntas Frequentes",
+      image: carouselImage_02,
+      to: "/#faq",
+      carousel_format: "",
+    },
+    {
+      title: "Duvidas? Comentarios?",
+      text: "Gostariamos de ouvir de voce.",
+      text_place: "text-end",
+      action: "Contato",
+      image: carouselImage_03,
+      to: "/#contato",
+      carousel_format: "active carousel-item-start",
+    },
+  ];
+
   return (
     <div className="w-100 mt-5 pt-5" id="carousel">
       <div className="p-3 pb-md-4 mx-auto text-center">
@@ -49,60 +79,30 @@ const Carrousel = () => {
             ></button>
           </div>
           <div className="carousel-inner">
-            <div className="carousel-item carousel-item-next carousel-item-start">
-              <img
-                src={carouselImage_01}
-                className="d-block w-100 mx-auto opacity-25"
-                alt="Carousel_01"
-              />
-              <div className="container">
-                <div className="carousel-caption text-start text-dark">
-                  <h1>Seu assistente virtual.</h1>
-                  <p>Melhore a assertividade de suas analises clinicas.</p>
-                  <p>
-                    <Link className="btn btn-lg btn-primary" to="/sign-up">
-                      Sign-up
-                    </Link>
-                  </p>
+            {carousel_items.map((item) => (
+              <div className={"carousel-item " + item.carousel_format}>
+                <img
+                  src={item.image}
+                  className="d-block w-100 mx-auto opacity-25"
+                  alt="Carousel_picture"
+                />
+                <div className="container">
+                  <div
+                    className={
+                      "carousel-caption " + item.text_place + " text-dark"
+                    }
+                  >
+                    <h1>{item.title}</h1>
+                    <p>{item.text}</p>
+                    <p>
+                      <Link className="btn btn-lg btn-primary" to={item.to}>
+                        {item.action}
+                      </Link>
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="carousel-item">
-              <img
-                src={carouselImage_02}
-                className="d-block w-100 mx-auto opacity-25"
-                alt="Carousel_02"
-              />
-              <div className="container">
-                <div className="carousel-caption text-dark">
-                  <h1>Facil de usar - direto e rapido.</h1>
-                  <p>Precisao do diagnostico, em segundos.</p>
-                  <p>
-                    <NavHashLink className="btn btn-lg btn-primary" to="/#faq">
-                      Perguntas Frequentes
-                    </NavHashLink>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item active carousel-item-start">
-              <img
-                src={carouselImage_03}
-                className="d-block w-100 mx-auto opacity-25"
-                alt="Carousel_03"
-              />
-              <div className="container">
-                <div className="carousel-caption text-end text-dark">
-                  <h1>Duvidas? Comentarios?</h1>
-                  <p>Gostariamos de ouvir de voce.</p>
-                  <p>
-                    <a className="btn btn-lg btn-primary" href="#">
-                      Contato
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
           <button
             className="carousel-control-prev"

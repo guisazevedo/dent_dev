@@ -3,6 +3,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import { NavHashLink } from "react-router-hash-link";
 
 const Navbar = () => {
+  // TODO => create a file with all inputs :> imports on the components
   const menu_items = [
     { title: "Principal", link: "/#carousel" },
     { title: "Video", link: "/#video" },
