@@ -57,8 +57,8 @@ const FAQ = () => {
 
   return (
     <>
-      <div className="pt-5 bg-light" id="faq">
-        <div className="pt-3 pb-md-4 mx-auto text-center mb-1">
+      <div className="p-5 bg-light" id="faq">
+        <div className="p-3 pb-md-4 mx-auto text-center mb-1">
           <h1 className="display-4 fw-normal mb-3">Perguntas Frenquentes</h1>
           <p className="fs-5 text-body-secondary">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
