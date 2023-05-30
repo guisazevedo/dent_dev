@@ -1,11 +1,11 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link } from "react-router-dom";
-//import { NavHashLink } from "react-router-hash-link";
+import { NavHashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light fixed-top">
+    <nav className="navbar navbar-expand-lg bg-light fixed-top p-2">
       <div className="container-fluid mx-5 my-2">
         <h1>
           <i className="bi bi-exclude text-dark m-3"></i>
@@ -24,29 +24,29 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarColor02">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">
+              <NavHashLink className="nav-link text-dark ms-3" to="/#carousel">
                 Principal
-              </Link>
+              </NavHashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <NavHashLink className="nav-link text-dark ms-3" to="/#video">
                 Video
-              </a>
+              </NavHashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <NavHashLink className="nav-link text-dark ms-3" to="/#faq">
                 FAQ
-              </a>
+              </NavHashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <NavHashLink className="nav-link text-dark ms-3" to="/#contato">
                 Contato
-              </a>
+              </NavHashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <NavHashLink className="nav-link text-dark ms-3" to="/#planos">
                 Planos
-              </a>
+              </NavHashLink>
             </li>
           </ul>
           <button className="btn btn-outline-dark m-1" type="submit">
