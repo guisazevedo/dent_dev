@@ -1,6 +1,6 @@
 const Video = () => {
   return (
-    <div className="bg-light mb-1" id="video">
+    <div className="bg-light" id="video">
       <div className="p-3 pb-md-4 text-center mb-5">
         <h1 className="display-4 fw-normal mb-3">Na Pratica</h1>
         <p className="fs-5 text-body-secondary">
@@ -23,7 +23,7 @@ const Video = () => {
               top: 0,
               left: 0,
               width: "100%",
-              height: "60%",
+              height: "80%",
             }}
           ></iframe>
         </div>
