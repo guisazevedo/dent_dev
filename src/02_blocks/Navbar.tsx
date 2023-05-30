@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 
 const Navbar = () => {
