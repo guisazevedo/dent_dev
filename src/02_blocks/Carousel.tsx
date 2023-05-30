@@ -37,7 +37,7 @@ const Carrousel = () => {
   ];
 
   return (
-    <div className="container pt-5 pb-5">
+    <div className="container pt-5">
       <div className="mt-5 pt-5" id="carousel">
         <div className="p-3 pb-md-4 mx-auto text-center">
           <h1 className="display-4 fw-normal mb-3">
@@ -49,7 +49,7 @@ const Carrousel = () => {
             aliquid omnis aut!
           </p>
         </div>
-        <div className="d-flex justify-content-center mt-5 mb-5">
+        <div className="d-flex justify-content-center mt-3">
           <div
             id="myCarousel"
             className="carousel slide pointer-event"

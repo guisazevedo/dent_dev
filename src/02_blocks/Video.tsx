@@ -1,7 +1,7 @@
 const Video = () => {
   return (
-    <div className="bg-light" id="video">
-      <div className="p-5 pb-md-4 text-center mb-5">
+    <div className="bg-light pt-5" id="video">
+      <div className="pt-5 pb-md-4 text-center mb-5">
         <h1 className="display-4 fw-normal mb-3">Na Pratica</h1>
         <p className="fs-5 text-body-secondary">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
