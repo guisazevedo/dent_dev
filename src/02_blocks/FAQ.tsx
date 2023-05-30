@@ -66,33 +66,37 @@ const FAQ = () => {
             aliquid omnis aut!
           </p>
         </div>
-        <h3 className="mt-5 mb-3">Topico 01</h3>
-        <div className="accordion">
-          {questions_items_1.map((item) => (
-            <div className="accordion-item">
-              <h2 className="accordion-header">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target={"#" + item.collapse}
-                  aria-expanded="false"
-                  aria-controls={item.collapse}
-                >
-                  {item.question}
-                </button>
-              </h2>
-              <div
-                id={item.collapse}
-                className="accordion-collapse collapse"
-                data-bs-parent="#accordionExample1"
-              >
-                <div className="accordion-body">
-                  <p>{item.text}</p>
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <h3 className="mt-5 mb-3">Topico 01</h3>
+            <div className="accordion">
+              {questions_items_1.map((item) => (
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={"#" + item.collapse}
+                      aria-expanded="false"
+                      aria-controls={item.collapse}
+                    >
+                      {item.question}
+                    </button>
+                  </h2>
+                  <div
+                    id={item.collapse}
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample1"
+                  >
+                    <div className="accordion-body">
+                      <p>{item.text}</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
         <h3 className="mt-5 mb-3">Topico 02</h3>
         <div className="accordion">
