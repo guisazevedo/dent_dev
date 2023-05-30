@@ -1,6 +1,6 @@
 const Video = () => {
   return (
-    <div className=" bg-light" id="video">
+    <div className="bg-light mb-1" id="video">
       <div className="p-3 pb-md-4 text-center mb-5">
         <h1 className="display-4 fw-normal mb-3">Na Pratica</h1>
         <p className="fs-5 text-body-secondary">
@@ -11,7 +11,7 @@ const Video = () => {
       </div>
       <div className="d-flex justify-content-center align-items-center">
         <div
-          style={{ width: "100%", position: "relative", paddingTop: "56.25%" }}
+          style={{ position: "relative", paddingTop: "56.25%", width: "100%" }}
         >
           <iframe
             className="embed-responsive-item"

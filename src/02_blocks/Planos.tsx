@@ -41,9 +41,9 @@ const Planos = () => {
   ];
 
   return (
-    <main className="mt-5 mb-5 bg-light" id="planos">
+    <main className="pb-5 bg-light" id="planos">
       <div className="w-75 mx-auto">
-        <div className="pricing-header p-3 pb-md-4 mx-auto text-center mb-5">
+        <div className="pricing-header p-5 pb-md-4 mx-auto text-center mb-5">
           <h1 className="display-4 fw-normal mb-3">Planos</h1>
           <p className="fs-5 text-body-secondary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur

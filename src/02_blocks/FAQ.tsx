@@ -1,63 +1,63 @@
 const FAQ = () => {
   const questions_items_1 = [
-    [
-      "Por que ...?",
-      "collapseOne",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    ],
-    [
-      "Por que ...?",
-      "collapseTwo",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    ],
-    [
-      "Por que ...?",
-      "collapseThree",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    ],
-    [
-      "Por que ...?",
-      "collapseFour",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    ],
-    [
-      "Por que ...?",
-      "collapseFive",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    ],
+    {
+      question: "Por que ...?",
+      collapse: "collapseOne",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
+    },
+    {
+      question: "Por que ...?",
+      collapse: "collapseTwo",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
+    },
+    {
+      question: "Por que ...?",
+      collapse: "collapseThree",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
+    },
+    {
+      question: "Por que ...?",
+      collapse: "collapseFour",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
+    },
+    {
+      question: "Por que ...?",
+      collapse: "collapseFive",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
+    },
   ];
 
   const questions_items_2 = [
-    [
-      "Por que ...?",
-      "collapseSix",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    ],
-    [
-      "Por que ...?",
-      "collapseSeven",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    ],
-    [
-      "Por que ...?",
-      "collapseEight",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    ],
-    [
-      "Por que ...?",
-      "collapseNine",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    ],
-    [
-      "Por que ...?",
-      "collapseTen",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    ],
+    {
+      question: "Por que ...?",
+      collapse: "collapseSix",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
+    },
+    {
+      question: "Por que ...?",
+      collapse: "collapseSeven",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
+    },
+    {
+      question: "Por que ...?",
+      collapse: "collapseEight",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
+    },
+    {
+      question: "Por que ...?",
+      collapse: "collapseNine",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
+    },
+    {
+      question: "Por que ...?",
+      collapse: "collapseTen",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
+    },
   ];
 
   return (
     <>
-      <div className="p-5 mt-5 bg-light" id="faq">
+      <div className="p-5 bg-light" id="faq">
         <div className="p-3 pb-md-4 mx-auto text-center mb-5">
           <h1 className="display-4 fw-normal mb-3">Perguntas Frenquentes</h1>
           <p className="fs-5 text-body-secondary">
@@ -75,20 +75,20 @@ const FAQ = () => {
                   className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target={"#" + item[1]}
+                  data-bs-target={"#" + item.collapse}
                   aria-expanded="false"
-                  aria-controls={item[1]}
+                  aria-controls={item.collapse}
                 >
-                  {item[0]}
+                  {item.question}
                 </button>
               </h2>
               <div
-                id={item[1]}
+                id={item.collapse}
                 className="accordion-collapse collapse"
-                data-bs-parent="#accordionExample"
+                data-bs-parent="#accordionExample1"
               >
                 <div className="accordion-body">
-                  <p>{item[2]}</p>
+                  <p>{item.text}</p>
                 </div>
               </div>
             </div>
@@ -103,24 +103,24 @@ const FAQ = () => {
                   className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target={"#" + item[1]}
+                  data-bs-target={"#" + item.collapse}
                   aria-expanded="false"
-                  aria-controls={item[1]}
+                  aria-controls={item.collapse}
                 >
-                  {item[0]}
+                  {item.question}
                 </button>
               </h2>
               <div
-                id={item[1]}
+                id={item.collapse}
                 className="accordion-collapse collapse"
-                data-bs-parent="#accordionExample"
+                data-bs-parent="#accordionExample2"
               >
                 <div className="accordion-body">
-                  <p>{item[2]}</p>
+                  <p>{item.text}</p>
                 </div>
               </div>
             </div>
-          ))}
+          ))}{" "}
         </div>
       </div>
     </>
