@@ -53,7 +53,8 @@ const Contact = () => {
         </div>
 
         {/* <!-- Submit button --> */}
-        <button type="submit" className="btn btn-primary btn-block mb-4">
+        <div className="container p-5"></div>
+        <button type="submit" className="btn btn-primary btn-block mb-4 px-4">
           Send
         </button>
       </form>

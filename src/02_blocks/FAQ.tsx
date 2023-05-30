@@ -20,11 +20,6 @@ const FAQ = () => {
       collapse: "collapseFour",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
     },
-    {
-      question: "Por que ...?",
-      collapse: "collapseFive",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    },
   ];
 
   const questions_items_2 = [
@@ -46,11 +41,6 @@ const FAQ = () => {
     {
       question: "Por que ...?",
       collapse: "collapseNine",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
-    },
-    {
-      question: "Por que ...?",
-      collapse: "collapseTen",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum dolore quas possimus, ex odit, est, animi laborum maiores eaque saepe. Iste rerum sit labore nostrum eaque! Maiores temporibus dolores voluptatum, et illo repellendus? Tempore sapiente deleniti corrupti cumque enim?",
     },
   ];
