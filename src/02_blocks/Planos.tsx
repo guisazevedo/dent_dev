@@ -41,8 +41,8 @@ const Planos = () => {
   ];
 
   return (
-    <main className="pt-5 bg-light" id="planos">
-      <div className="p-5 mx-auto">
+    <main className="py-5 bg-light" id="planos">
+      <div className="mx-auto">
         <div className="pricing-header p-5 pb-md-4 mx-auto text-center mb-5">
           <h1 className="display-4 fw-normal mb-3">Planos</h1>
           <p className="fs-5 text-body-secondary">
@@ -53,7 +53,7 @@ const Planos = () => {
             temporibus quaerat! Voluptatem deserunt doloremque laborum?
           </p>
         </div>
-        <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div className="row row-cols-1 row-cols-md-4 mb-3 text-center justify-content-center">
           {plan_items.map((item) => (
             <div className="col p-3">
               <div
