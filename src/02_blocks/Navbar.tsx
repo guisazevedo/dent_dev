@@ -4,11 +4,11 @@ import { NavHashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const menu_items = [
-    ["Principal", "/#carousel"],
-    ["Video", "/#video"],
-    ["FAQ", "/#faq"],
-    ["Contato", "/#contato"],
-    ["Planos", "/#planos"],
+    { title: "Principal", link: "/#carousel" },
+    { title: "Video", link: "/#video" },
+    { title: "FAQ", link: "/#faq" },
+    { title: "Contato", link: "/#contato" },
+    { title: "Planos", link: "/#planos" },
   ];
 
   const menu_logs = [
@@ -38,8 +38,8 @@ const Navbar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             {menu_items.map((item) => (
               <li className="nav-item">
-                <NavHashLink className="nav-link text-dark ms-3" to={item[1]}>
-                  {item[0]}
+                <NavHashLink className="nav-link text-dark ms-3" to={item.link}>
+                  {item.title}
                 </NavHashLink>
               </li>
             ))}
