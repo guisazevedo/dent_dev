@@ -17,7 +17,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="navbar navbar-expand-lg bg-light fixed-top p-2">
+    <nav className="navbar navbar-expand-lg bg-light fixed-top px-5 py-3">
       <div className="container-fluid">
         <h1>
           <i className="bi bi-exclude text-dark m-3"></i>
