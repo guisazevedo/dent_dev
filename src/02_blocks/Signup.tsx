@@ -107,3 +107,4 @@ export default Signup;
 // TODO => include validations
 // TODO => input login / sign up are not equal...
 // TODO => esqueceu a senha?
+// TODO => size of inputs on mobile are different (si)
