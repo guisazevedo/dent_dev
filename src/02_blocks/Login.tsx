@@ -37,7 +37,7 @@ const Login = () => {
           <div className="checkbox m-3 mb-2">
             <label>
               <input type="checkbox" value="remember-me" />
-              Lembre de mim
+              <span className="p-2">Lembre de mim</span>
             </label>
           </div>
           <div className="mb-4">
@@ -60,6 +60,6 @@ const Login = () => {
 
 export default Login;
 
-// TODO => space between square and Lembre
+// TODO => body of page in the middle of page
 // TODO => include "olho" senha
 // TODO => include validations

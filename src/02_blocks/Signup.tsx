@@ -81,7 +81,7 @@ const Signup = () => {
         <div className="checkbox m-3 mb-2">
           <label>
             <input type="checkbox" value="concordo" />
-            Concordo com termos e condicoes
+            <span className="p-2">Concordo com termos e condicoes</span>
           </label>
         </div>
         <Link to="/web-app">
@@ -101,7 +101,7 @@ const Signup = () => {
 export default Signup;
 
 // TODO => include tooltips for fields
-// TODO => space between square and Concordo
 // TODO => include "olho" senha
 // TODO => include validations
 // TODO => input login / sign up are not equal...
+// TODO => Cadastre-se => Sign-up
