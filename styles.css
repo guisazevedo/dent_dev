@@ -1,3 +1,9 @@
+/* Overal styles */
+html {
+  scroll-padding-top: 3rem;
+}
+
+/* Carousel */
 .carousel-item.image-container img {
   width: 100vw;
   height: 60vh;
