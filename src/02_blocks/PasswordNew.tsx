@@ -20,6 +20,7 @@ const PasswordNew = () => {
                 htmlFor="floatingPassword"
               >
                 Nova Senha
+                <i className="bi bi-eye-slash-fill"></i>
               </label>
             </div>
             <div className="form-floating m-2">
@@ -34,6 +35,7 @@ const PasswordNew = () => {
                 htmlFor="floatingPassword"
               >
                 Nova Senha
+                <i className="bi bi-eye-slash-fill"></i>
               </label>
             </div>
 
