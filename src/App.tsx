@@ -6,6 +6,7 @@ import WebApp_page from "./03_pages/WebApp_page";
 import Termosuso_page from "./03_pages/Termosuso_page";
 import Documentation_page from "./03_pages/Documentation_page";
 import Clinico_page from "./03_pages/Clinico_page";
+import PasswordNew_page from "./03_pages/PasswordNew_page";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/clinico" Component={Clinico_page}></Route>
           <Route path="/termos" Component={Termosuso_page}></Route>
           <Route path="/documentation" Component={Documentation_page}></Route>
+          <Route path="/passnew" Component={PasswordNew_page}></Route>
         </Routes>
       </Router>
     </div>

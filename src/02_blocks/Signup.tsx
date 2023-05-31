@@ -55,10 +55,7 @@ const Signup = () => {
             </label>
           </div>
           <div className="form-floating m-1">
-            <input
-              type="text" //TODO => incluir xx.xxx.xxx-xx
-              className="form-control"
-            />
+            <input type="text" className="form-control" />
             <label
               className="text-dark text-opacity-50 ms-2"
               htmlFor="floatingInput"
@@ -68,7 +65,7 @@ const Signup = () => {
           </div>
           <div className="form-floating m-1">
             <input
-              type="text" //TODO => incluir xx.xxx.xxx-xx
+              type="text"
               className="form-control text-opacity-50"
               id="floatingInput"
             />
